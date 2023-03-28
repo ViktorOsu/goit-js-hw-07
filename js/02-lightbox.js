@@ -24,7 +24,7 @@ galleryListEl.insertAdjacentHTML('beforeend', galleryItemsList);
 
 console.log(galleryListEl);
 
-var lightbox = new SimpleLightbox('.gallery a', {animationSpeed: '250', captionsData: 'alt', captionPosition: 'bottom'});
+var lightbox = new SimpleLightbox('.gallery a', {captionDelay: '250', captionsData: 'alt', captionPosition: 'bottom'});
 
 
 
